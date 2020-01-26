@@ -9,7 +9,7 @@ function get_multiple_parallel_databases(A)
     parallel_databases = []
     
     for i in 1:length(A)
-        x = get_parallel_databases(A, i)
+        x = get_one_parallel_database(A, i)
         push!(parallel_databases, x)
     end
     
