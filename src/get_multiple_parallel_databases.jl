@@ -1,5 +1,7 @@
 module DiffPrivacy
 
+include("get_one_parallel_database.jl")
+
 function get_multiple_parallel_databases(A)
 
     # Returns Array of length(A) with all the parallel databases generated and stored in parallel_databases
