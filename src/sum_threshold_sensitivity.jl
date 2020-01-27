@@ -1,5 +1,9 @@
 module DiffPrivacy
 
+include("get_one_parallel_database.jl")
+include("get_multiple_parallel_databases.jl")
+
+
 function sensitivity(A, query, n)
     
     db = A
