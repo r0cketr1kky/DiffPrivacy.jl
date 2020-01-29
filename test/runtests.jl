@@ -1,4 +1,4 @@
-using DiffPrivacy
+using DiffPrivacy, Test
 
 
 @info "Testing one parallel database"
