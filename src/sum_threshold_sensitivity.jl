@@ -37,4 +37,5 @@ function sum_threshold_sensitivity(A, n)
   for i in 1:n
     sens_f = sensitivity(A, query, n)
     println(sens_f)
+  end
 end
