@@ -11,7 +11,7 @@ using DiffPrivacy, Test
   @info "Testing multiple parallel databases"
   x = [1,2,3,4]
   y = DiffPrivacy.get_multiple_parallel_databases(x)
-  @test y == [[2,3,4],[1,3,4],[1,2,4],[1,2,3]]
+  @test y == [[2 3 4],[1 3 4],[1 2 4],[1 2 3]]
 
 
   @info "Testing sum sensitivity"
