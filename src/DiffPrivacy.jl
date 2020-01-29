@@ -1,9 +1,4 @@
-
-
 module DiffPrivacy
-
-
-
 
 
 function get_one_parallel_database(A, remove_index)
@@ -106,5 +101,7 @@ function sum_sensivity_threshold(A, threshold)
 end
 
 
+export DiffPrivacy
 
+end # module
 
