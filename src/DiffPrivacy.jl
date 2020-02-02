@@ -79,16 +79,16 @@ function sum_sensitive_query(A, threshold)
     end
 end
 
-function sum_sensivity_threshold(A, threshold)
+function sum_sensitivity_threshold(A, threshold)
     
     db = A
     pdbs = get_multiple_parallel_databases(A)
     
-    full_db_result = sum_sensitivity_query(db, threshold)
+    full_db_result = sum_sensitive_query(db, threshold)
     
     max_distance = 0
     for pdb in pdbs
-        pdb_result = sum_sensitivity_query(pdb, threshold)
+        pdb_result = sum_sensitive_query(pdb, threshold)
         
         db_distance = abs(pdb_result - full_db_result)
     
