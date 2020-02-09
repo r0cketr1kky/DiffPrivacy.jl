@@ -17,6 +17,9 @@ matrix:
 notifications:
   email: false
   
+name: Julia TagBot
+uses: JuliaRegistries/TagBot@v1.5.3
+ 
   
 after_success:
   - julia -e 'using Pkg; Pkg.add("Coverage"); using Coverage; Coveralls.submit(Coveralls.process_folder())';
