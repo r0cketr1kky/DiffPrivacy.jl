@@ -4,12 +4,12 @@ The DiffPrivacy library consists of functions to manipulate statistical database
 
 ## Initials
 
-get_one_parallel_database
+get_one_parallel_database</br>
 get_multiple_parallel_databases
 
 
 ## Queries
 
-sum_sensitivity
-mean_sensitivity
+sum_sensitivity</br>
+mean_sensitivity</br>
 sum_sensitivity_threshold
