@@ -1,4 +1,4 @@
-# DiffPrivacy.jl
+# DiffPrivacy.jl 🔐
 
 [![Build Status](https://travis-ci.com/r0cketr1kky/DiffPrivacy.jl.svg?branch=master)](https://travis-ci.com/r0cketr1kky/DiffPrivacy.jl)
 
