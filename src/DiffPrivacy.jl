@@ -100,15 +100,16 @@ function sum_sensitivity_threshold(A, threshold)
     return max_distance
 end
 
-function gaussian_noise(A, mu, sigma)
+function add_gaussian_noise(A, mu, sigma)
     d = rand(Gaussian(mu, sigma), size(A))
-    push !(A, d)
+    A = A + d 
     return A
 end
 
-function laplacian_noise(A, loc, scale)
+function add_laplacian_noise(A, loc, scale)
     d = rand(Laplacian(loc, scale), size(A))
-    push !(A, d)
+    A = A + d
+    push!(A, d)
     return A
 end
 
