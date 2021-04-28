@@ -113,6 +113,12 @@ function add_laplacian_noise(A, loc, scale)
     return A
 end
 
+function add_normal_noise(A, mu, sigma)
+    d = rand(Normal(mu, sigma), size(A))
+    A = A + d
+    return A    
+end
+
 export DiffPrivacy
 
 end # module
